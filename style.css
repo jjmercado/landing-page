@@ -1,0 +1,151 @@
+*
+{
+    border: 1px solid red;
+}
+
+body
+{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+}
+
+/*START OF HEADER SECTION*/
+
+.header
+{
+    display: flex;
+    background-color: #1f293752;
+    justify-content: space-between;
+    padding: 16px 16px 64px 16px;
+}
+
+.header-logo
+{
+    margin-left: 180px;
+}
+
+.header-links
+{
+    margin-right: 180px;
+}
+
+.header a
+{
+    color:white;
+    text-decoration: none;
+}
+
+/*END OF HEADER SECTION*/
+
+/*START OF MAIN TITLE SECTION*/
+
+.main-title-container
+{
+    padding: 16px;
+    display: flex;
+    background-color: #1f293752;
+    color: white;
+    height: 300px;
+}
+
+.main-title
+{
+    margin-left: 180px;
+    justify-content: center;
+    padding-right: 32px;
+}
+
+.main-title-image
+{
+    display: flex;
+    flex: 1;
+    margin-right: 180px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(96, 103, 134);
+}
+
+.main-title button
+{
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    padding: 4px;
+    border: 0px;
+}
+
+.main-title button:hover
+{
+    background-color: white;
+    color: #3882F6;
+}
+
+/*END OF MAIN TITLE SECTION*/
+
+/*START OF INFORMATION SECTION*/
+
+.information-container
+{
+    background-color: rgba(255, 255, 255, 0.226);
+}
+
+.picture-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.picture-text
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.picture-text p
+{
+    text-align: center;
+    width: 200px;
+    padding: 2px;
+    color: white;
+}
+
+.information-picture
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: 3px solid #3882F6;
+    background-color: white;
+}
+
+.information-container h2
+{
+    text-align: center;
+    color: white;
+}
+
+/*END OF INFORMATION SECTION*/
+
+/*START OF INSPIRING QUOTE*/
+
+.inspiring-quote-container
+{
+    font-size: 36px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+/*END OF INSPIRING QUOTE*/
+
+.container4
+{
+    background-color: violet;
+}
+
+.footer
+{
+    background-color: peachpuff;
+}
