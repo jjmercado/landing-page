@@ -1,8 +1,3 @@
-*
-{
-    border: 1px solid red;
-}
-
 body
 {
     background-image: url(img/background.jpg);
@@ -14,7 +9,7 @@ body
 .header
 {
     display: flex;
-    background-color: #1f293752;
+    background-color: rgba(255, 255, 255, 0.226);
     justify-content: space-between;
     padding: 16px 16px 64px 16px;
 }
@@ -68,16 +63,16 @@ body
 .main-title button
 {
     border-radius: 5px;
-    background-color: #3882F6;
-    color: white;
-    padding: 4px;
+    background-color: white;
+    color: black;
+    padding: 4px 12px;
     border: 0px;
 }
 
 .main-title button:hover
 {
-    background-color: white;
-    color: #3882F6;
+    background-color: black;
+    color: white;
 }
 
 /*END OF MAIN TITLE SECTION*/
@@ -110,6 +105,7 @@ body
     width: 200px;
     padding: 2px;
     color: white;
+    margin-bottom: 100px;
 }
 
 .information-picture
@@ -133,19 +129,83 @@ body
 
 .inspiring-quote-container
 {
-    font-size: 36px;
     background-color: #E5E7EB;
     color: #1F2937;
 }
 
-/*END OF INSPIRING QUOTE*/
-
-.container4
+.inspiring-quote-text
 {
-    background-color: violet;
+    font-size: 36px;
+    font-style: italic;
+    margin: 100px auto 0px auto;
+    width: 600px;
 }
+
+.inspiring-quote-name
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+    width: 600px;
+    margin: 0px auto 100px auto;
+    text-align: right;
+}
+
+/*END OF INSPIRING QUOTE SECTION*/
+
+/*START OF PRODUCT SECTION*/
+
+.product-container
+{
+    display: flex;
+    color: white;
+    margin: 64px auto;
+    width: 1000px;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.226);
+    padding: 32px;
+}
+
+#product-text-header
+{
+    font-size: 20px; 
+    font-weight: bold;  
+}
+
+.product-text p
+{
+    margin: 0px;   
+}
+
+.product-button
+{
+    margin: auto 0px;
+}
+
+.product-button button
+{
+    margin: auto 0px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: white;
+    padding: 4px 12px;
+    color: black;
+}
+
+.product-button button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+/*END OF PRODUCT SECTION*/
 
 .footer
 {
-    background-color: peachpuff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.226);
+    color: white;
 }
