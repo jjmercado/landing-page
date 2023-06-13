@@ -16,18 +16,46 @@ body
 
 .header-logo
 {
+    border: 1px solid gray;
     margin-left: 180px;
+    height: 35px;
+    width: 35px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.header-logo:hover
+{
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+.header-logo a img
+{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .header-links
 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     margin-right: 180px;
 }
 
-.header a
+.header-links a
 {
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 5px;
     color:white;
     text-decoration: none;
+}
+
+.header-links a:hover
+{
+    background-color: rgba(255, 255, 255, 0.247);
+    color: white;
 }
 
 /*END OF HEADER SECTION*/
@@ -50,14 +78,12 @@ body
     padding-right: 32px;
 }
 
-.main-title-image
+.main-title-image img
 {
-    display: flex;
-    flex: 1;
-    margin-right: 180px;
-    align-items: center;
-    justify-content: center;
     background-color: rgb(96, 103, 134);
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 250px;
 }
 
 .main-title button
@@ -113,8 +139,19 @@ body
     height: 200px;
     width: 200px;
     border-radius: 5px;
-    border: 3px solid #3882F6;
+    border: 3px solid darkgray;
     background-color: white;
+}
+
+.information-picture:hover
+{
+    transform: scale(1.1);
+}
+
+.information-picture img
+{
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .information-container h2
